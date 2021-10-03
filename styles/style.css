@@ -9,7 +9,7 @@ header {
   display: flex;
   width: 100%;
 
-  background-color: gray;
+  background-color:cornflowerblue;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -39,33 +39,40 @@ header .classone {
   border: 10px solid transparent;
   margin-top: 15px;
   padding: auto;
-  float: right;
+  float: right; 
 }
+#About-me {
+  display: flex;
+  flex-direction: row;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .section1 {
-  background-image: url("images/ab.jpg");
+  background-image: url("images/h2.jpg");
   padding: 10px;
   height: 190px;
   background-repeat: no-repeat;
+  img
 }
 .subtitle {
   background: brown;
   width: 230px;
-  height: 62px;
+  height: 80px;
   padding-left: 15px;
-  margin: 120px 25px;
-  font-weight: bold;
+  margin: 90px 25px;
+  
   position: absolute;
   right: 20px;
 }
 
+
 .section2 {
   display: flex;
-  background-image: url("images/a.jpg");
+  background-image: ("images/rodion-kutsaev-kE0mU-yy31Y-unsplash.jpg");
   margin-right: 50px;
   /*margin-left: 320px;*/
   height: 400px;
@@ -85,12 +92,16 @@ section {
   display: flex;
 }
 
+
 .sectionLeft {
+  
   width: 25%;
   border-right: 15px solid red;
   border-width: thick;
   margin-bottom: 20px;
+
 }
+
 
 .sectionRight {
   display: flex;
@@ -108,11 +119,19 @@ border-width: thick;*/
 }
 
 .boxLeft {
-  width: 100px;
+  width: 150px;
   font-weight: bolder;
+  margin-left: 175px;
 }
-.boxRight {
-  margin-left: 300px;
+.boxRight  {
+  display: inline-block;
+  width: 850px;
+  margin-left: 320px;
+  text-align: center;
+}
+p{
+  display: inline;
+  margin: 200px;
 }
 .done {
   display: flex;
@@ -121,7 +140,7 @@ border-width: thick;*/
 }
 
 .div1 {
-  background-image: url(images/a.jpg);
+  background-image: url(images/abc.jpg);
   width: 48%;
   height: 100px;
   /*margin-left: 320px;*/
@@ -129,16 +148,16 @@ border-width: thick;*/
   border: double;
 }
 .div2 {
-  background-image: url(images/a.jpg);
+  background-image: url(images/nick-fewings-XXBgxhS_-vc-unsplash.jpg);
   width: 48%;
-  /*margin-left: 772px;*/
+  margin-left: 772px;
   margin-top: -106px;
-  margin-left: 340px;
+  margin-left: 450px;
   height: 100px;
   border: double;
 }
 .div3 {
-  background-image: url(images/a.jpg);
+  background-image: url(images/nick-fewings-XXBgxhS_-vc-unsplash.jpg);
   width: 48%;
   height: 100px;
   /*margin-left: 320px;*/
@@ -146,11 +165,11 @@ border-width: thick;*/
   border: double;
 }
 .div4 {
-  background-image: url(images/a.jpg);
+  background-image: url(images/ab.jpg);
   width: 48%;
   /*margin-left: 772px;*/
   margin-top: -106px;
-  margin-left: 340px;
+  margin-left: 450px;
   height: 100px;
   border: double;
 }
