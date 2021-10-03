@@ -9,7 +9,7 @@ header {
   display: flex;
   width: 100%;
 
-  background-color:cornflowerblue;
+  background-color: cornflowerblue;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -39,7 +39,7 @@ header .classone {
   border: 10px solid transparent;
   margin-top: 15px;
   padding: auto;
-  float: right; 
+  float: right;
 }
 #About-me {
   display: flex;
@@ -56,7 +56,6 @@ section {
   padding: 10px;
   height: 190px;
   background-repeat: no-repeat;
-  
 }
 .subtitle {
   background: brown;
@@ -64,17 +63,15 @@ section {
   height: 80px;
   padding-left: 15px;
   margin: 90px 25px;
-  
+
   position: absolute;
   right: 20px;
 }
-
 
 .section2 {
   display: flex;
   background-image: ("images/rodion-kutsaev-kE0mU-yy31Y-unsplash.jpg");
   margin-right: 50px;
-  /*margin-left: 320px;*/
   height: 400px;
   margin-top: 25px;
 }
@@ -82,9 +79,10 @@ section {
 .hello {
   width: 100px;
   height: 90px;
-  /*padding: 160px 0 0 30px;*/
+  margin: 20px 0px 0px 20px;
   font-weight: bold;
   background: chocolate;
+  padding: 10px;
 }
 
 .box {
@@ -92,16 +90,12 @@ section {
   display: flex;
 }
 
-
 .sectionLeft {
-  
   width: 25%;
   border-right: 15px solid red;
   border-width: thick;
   margin-bottom: 20px;
-
 }
-
 
 .sectionRight {
   display: flex;
@@ -111,6 +105,17 @@ section {
 border-width: thick;*/
   margin-left: 30px;
   margin-bottom: 20px;
+}
+
+.my-infos {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.who-isme {
+  margin-left: 20px;
+  text-align: justify;
 }
 
 .firstBox {
@@ -123,22 +128,20 @@ border-width: thick;*/
   font-weight: bolder;
   margin-left: 175px;
 }
-.boxRight  {
+.boxRight {
   display: inline-block;
   width: 850px;
   margin-left: 320px;
   text-align: center;
-  
-
 }
 img {
   height: 150px;
-  width: 250px;
+  width: 180px;
   border-radius: 15px;
 }
-p{
+p {
   display: inline;
-  margin: 200px;
+  text-align: justify;
 }
 .done {
   display: flex;
@@ -146,73 +149,54 @@ p{
   flex-wrap: wrap;
 }
 
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 50%;
+  height: 100px;
+  border: double;
+  padding: 10px;
+}
+
+.sectionRight a {
+  color: #000;
+}
+
+.sectionRight a:hover {
+  opacity: 0.75;
+}
+
 .div1 {
   background-image: url(images/abc.jpg);
-  width: 48%;
-  height: 100px;
-  /*margin-left: 320px;*/
-  margin-top: 45px;
-  border: double;
+  margin-right: 10px;
 }
 .div2 {
   background-image: url(images/nick-fewings-XXBgxhS_-vc-unsplash.jpg);
-  width: 48%;
-  margin-left: 772px;
-  margin-top: -106px;
-  margin-left: 450px;
-  height: 100px;
-  border: double;
 }
 .div3 {
   background-image: url(images/nick-fewings-XXBgxhS_-vc-unsplash.jpg);
-  width: 48%;
-  height: 100px;
-  /*margin-left: 320px;*/
-  margin-top: 45px;
-  border: double;
+  margin-right: 10px;
 }
 .div4 {
   background-image: url(images/ab.jpg);
-  width: 48%;
-  /*margin-left: 772px;*/
-  margin-top: -106px;
-  margin-left: 450px;
-  height: 100px;
-  border: double;
 }
 
-/*.sectionRight ul {
-  display: flex;
-  list-style-type: none;
-}
-
-.sectionRight ul li {
-  padding-right: 35px;
-  text-decoration: underline;
-  text-decoration-color: cornflowerblue;
-  padding-bottom: 2px;
-}*/
-
-.menu-outer{
-  height: 80px;
-}
-
-.table{
-  display: table;
-  margin: 0 auto;
-}
-
-.horizontal-list{
+.horizontal-list {
   list-style: none;
   padding-top: 20px;
+  display: flex;
 }
 
-.horizontal-list li{
-  display: inline;
-  padding-right: 70px;
+.horizontal-list li {
+  flex: 25%;
+  justify-items: center;
 }
 
-.horizontal-list span{
+.horizontal-list a {
   border-bottom: 2px solid #f00;
   padding-bottom: 2px;
+  text-decoration: none;
 }
